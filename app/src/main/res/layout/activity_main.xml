@@ -20,4 +20,39 @@
         android:text="AsyncTask"
         android:onClick="handlingMultithreading"/>
 
+    <Button
+        android:id="@+id/btnThread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thread"
+        android:onClick="handlingMultithreading"/>
+
+    <Button
+        android:id="@+id/btnRunnable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Runnable"
+        android:onClick="handlingMultithreading"/>
+
+    <Button
+        android:id="@+id/btnPoolThread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PoolThread"
+        android:onClick="handlingMultithreading"/>
+
+    <Button
+        android:id="@+id/btnRunOnUIThread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RunOnUIThread"
+        android:onClick="handlingMultithreading"/>
+
+    <Button
+        android:id="@+id/btnAsyncTaskLoader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AsyncTaskLoader"
+        android:onClick="handlingMultithreading"/>
+
 </LinearLayout>
